@@ -1,0 +1,28 @@
+# backend/requirements.txt
+
+# FastAPI framework and server
+fastapi
+uvicorn[standard]
+
+# Database ORM and driver
+sqlalchemy
+
+# Environment variable loading
+python-dotenv
+
+# Authentication - with known-good versions
+passlib[bcrypt]==1.7.4
+bcrypt==4.1.2
+
+# JWTs
+python-jose[cryptography]
+
+# Data validation
+pydantic[email]
+
+# Google Gemini SDK
+google-generativeai
+
+# Resume file processing
+python-docx
+pypdf2

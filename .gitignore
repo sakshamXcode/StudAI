@@ -1,0 +1,38 @@
+# --- General ---
+# Environment variables (contains secrets!)
+.env
+*.env
+
+# IDE and OS files
+.vscode/
+.idea/
+*.DS_Store
+
+# --- Python / Backend ---
+# Virtual environment folder
+/backend/venv/
+/backend/.venv/
+
+# Python cache files
+/backend/__pycache__/
+/backend/app/__pycache__/
+/backend/app/routers/__pycache__/
+
+# SQLite Database file
+# You don't want to commit the database itself, just the code that creates it.
+/backend/app.db
+
+# --- Node.js / Frontend ---
+# Node modules (can be reinstalled with 'npm install')
+/frontend/node_modules/
+
+# Vite cache
+/frontend/.vite/
+
+# Build output
+/frontend/dist/
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*

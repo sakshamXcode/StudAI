@@ -1,0 +1,41 @@
+@import "tailwindcss";
+
+:root{
+  --card-pad: 1.5rem;
+}
+
+/* ensure root and body fill height */
+html, body, #root {
+  height: 100%;
+}
+
+/* helper classes */
+.card-pad {
+  padding: var(--card-pad);
+}
+
+/* subtle tweaks */
+.blur-3xl { filter: blur(36px); }
+.shadow-2xl { box-shadow: 0 30px 80px rgba(2,6,23,0.6); }
+
+@keyframes float { 0% { transform: translateY(0); } 50% { transform: translateY(-8px);} 100% { transform: translateY(0);} }
+.animate-float { animation: float 14s ease-in-out infinite; }
+@keyframes pulse-slow { 0%{transform:scale(1);opacity:0.04}50%{transform:scale(1.03);opacity:0.11}100%{transform:scale(1);opacity:0.04} }
+.animate-pulse-slow{ animation: pulse-slow 10s ease-in-out infinite; }
+@keyframes pulse-slower { 0%{transform:scale(1);opacity:0.03}50%{transform:scale(1.05);opacity:0.09}100%{transform:scale(1);opacity:0.03} }
+.animate-pulse-slower{ animation: pulse-slower 14s ease-in-out infinite; }
+/* add to index.css or tailwind globals */
+.animate-float { animation: float 10s ease-in-out infinite; }
+@keyframes float { 0% { transform: translateY(0);} 50% { transform: translateY(-6px);} 100% { transform: translateY(0);} }
+
+.animate-pulse-slower { animation: pulse 6s ease-in-out infinite; }
+@keyframes pulse { 0% { opacity: 0.05; } 50% { opacity: 0.12 } 100% { opacity: 0.05 } }
+
+/* make textarea & card inputs slightly taller */
+textarea, input[type="text"], input[type="file"] {
+  line-height: 1.5;
+}
+
+/* relaxed list spacing */
+ul li { margin-top: 0.35rem; margin-bottom: 0.35rem; }
+
