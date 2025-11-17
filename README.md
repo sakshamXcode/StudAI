@@ -1,17 +1,4 @@
-Of course. A high-quality `README.md` is the front door to your project for other developers. It needs to be clear, concise, and give them everything they need to get the project running.
-
-Here is a complete, professionally formatted `README.md` file tailored specifically for your project.
-
----
-
-**Instructions:**
-1.  In the root folder of your project (`Final_Project/`), create a new file named `README.md`.
-2.  Copy and paste the entire content below into that file.
-3.  (Optional but recommended) Take a screenshot of your running application (like the one you sent me) and save it as `screenshot.png` in the root folder. The Readme will automatically display it.
-
----
-
-# Cosmic AI Assistant Suite
+# StudAI
 
 [![React](https://img.shields.io/badge/React-v18.2-blue?logo=react)](https://reactjs.org/)
 [![FastAPI](https://img.shields.io/badge/FastAPI-v0.104-green?logo=fastapi)](https://fastapi.tiangolo.com/)
