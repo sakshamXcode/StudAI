@@ -5,9 +5,9 @@
 [![Python](https://img.shields.io/badge/Python-v3.12-blue?logo=python)](https://www.python.org/)
 [![Vite](https://img.shields.io/badge/Vite-v4.4-purple?logo=vite)](https://vitejs.dev/)
 
-The Cosmic AI Assistant Suite is a full-stack web application designed to provide users with a suite of AI-powered tools for career development and personal wellness, featuring a unique, noir-themed "orbital" user interface.
+The StudAI Assistant is a full-stack web application designed to provide users with a suite of AI-powered tools for career development and personal wellness, featuring a unique, noir-themed "orbital" user interface.
 
-![Cosmic AI Assistant Suite Screenshot](screenshot.png)
+
 
 ## ✨ Core Features
 
